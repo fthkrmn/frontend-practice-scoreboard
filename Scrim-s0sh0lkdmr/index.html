@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sub-container">
+                <h3 id="board-title-home">HOME</h3>
+                <div id="board-home">
+                    <p id="home-points-text">0</p>
+                </div>
+                <div id="add-points-btns-home">
+                    <div id="rectangle-1">
+                        <button id="plus-one-point" onclick="homeScoresOne()">+1</button>
+                    </div>
+                    <div id="rectangle-2">
+                        <button id="plus-two-point" onclick="homeScoresTwo()">+2</button>
+                    </div>
+                    <div id="rectangle-3">
+                        <button id="plus-three-point" onclick="homeScoresThree()">+3</button>
+                    </div>
+                </div>
+                <div id="add-points-btns-home-reset">
+                     <button id="reset-point-home" onclick="homeScoreReset()">RESET</button>
+                </div>
+            </div>
+            <div class="sub-container">
+                <h3 id="board-title-away">GUEST</h3>
+                <div id="board-away">
+                    <p id="away-points-text">0</p>
+                </div>
+                <div id="add-points-btns-away">
+                    <div id="rectangle-4">
+                        <button id="plus-one-point" onclick="awayScoresOne()">+1</button>
+                    </div>
+                    <div id="rectangle-5">
+                        <button id="plus-two-point" onclick="awayScoresTwo()">+2</button>
+                    </div>
+                    <div id="rectangle-6">
+                        <button id="plus-three-point" onclick="awayScoresThree()">+3</button>
+                    </div>
+                </div>
+                <div id="add-points-btns-away-reset">
+                     <button id="reset-point-away" onclick="awayScoreReset()">RESET</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
